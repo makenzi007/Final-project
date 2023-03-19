@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.main {
+    width: 100%;
+    background-image:
+        linear-gradient(to bottom, rgba(2, 2, 2, 0.909), rgba(15, 14, 14, 0.899)),
+        url("../IMG3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 100vh;
+    font-size: 16px;
+}
+
+
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.navbar .icon {
+    width: auto;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: rgb(100, 238, 100);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 30px;
+
+}
+
+.menu {
+    width: auto;
+    float: right;
+    height: 70px;
+    background-color: transparent;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.menu ul {
+    float: left;
+    display: flex;
+    justify-content: centre;
+    align-items: center;
+    font-size: 16px;
+
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 6px;
+    margin-top: 17px;
+    font-size: 14px;
+    padding: 8px;
+}
+
+.menu ul li a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: orange;
+    padding: 15px;
+    font-size: 15px;
+    background-color: rgb(30, 62, 62);
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus {
+    outline: none
+}
+
+.content {
+    width: 80%;
+    height: auto;
+    margin-top: 15%;
+    position: relative;
+}
+
+.content .par {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    color: white;
+    margin: 2%;
+    font-size: 20px;
+    width: 70%;
+}
+
+.content h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 2%;
+    margin-left: 6%;
+    letter-spacing: 2px;
+    color: antiquewhite;
+}
+
+.content .cn {
+    width: 260px;
+    background: aquamarine;
+    border: none;
+    margin-top: 10px;
+    margin-left: 350px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 9px;
+
+}
+
+.content .cn a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+
+    transition: 5s ease;
+}
+
+.cn:hover {
+    background-color: beige;
+}
+
+.form {
+    width: 380px;
+    height: 440px;
+    background: rgba(250, 250, 250, 0.07);
+    position: absolute;
+    top: 180px;
+    left: 70%;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(241, 187, 86);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input {
+    width: 380px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgba(194, 234, 16, 0.89);
+    color: black;
+    font-size: 29px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    padding: 2px;
+}
+
+.form input:focus {
+    outline: none;
+    color: white;
+}
+
+::placeholder {
+    color: aliceblue;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    width: 340px;
+    height: 40px;
+    background: rgb(11, 156, 240);
+    border: none;
+    margin-top: 30px;
+    margin-left: 15px;
+    font-size: 19px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.4s ease;
+}
+
+.btn:hover {
+    background: wheat;
+    color: rgb(11, 156, 240);
+    font-size: 19px;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: 15px;
+    color: whitesmoke;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: blue;
+    font-size: 22px;
+}
+
+.liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
